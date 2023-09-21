@@ -1,0 +1,122 @@
+#main {
+  padding-left: 272px;
+  padding-top: 70px;
+}
+#h2
+{
+  margin-left: 43px;
+  display: flex;
+}
+.heading {
+  margin-top: 10px;
+  border: solid;
+
+  margin-left: 10px; 
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#dash {
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 700px;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+
+.heading img {
+  width: 40px; 
+  height: 40px;
+  margin-right: 10px; 
+  border-radius: 50%; 
+}
+
+#overview {
+margin-top: 15px;
+  padding-left: 30px;
+}
+
+#truck {
+  height: 100px;
+  width:100px;
+  border-radius: 50px;
+  
+}
+
+.one, .two, .three, .four {
+  height: 200px;
+  width: 210px;
+  display: block;
+  padding: 10px;
+  border: solid;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.one {
+  float: left;
+}
+
+.four {
+  float: right;
+  margin-right: 90px;
+}
+
+.three {
+  float: left;
+  margin-left: 100px;
+}
+
+.two {
+  float: left;
+  margin-left: 80px;
+}
+
+#home-table, #home-tr, #home-th, #home-td {
+  border: solid;
+  border-collapse: collapse;
+
+}
+
+#home-table {
+  text-align: center;
+  min-width: 700px;
+  margin-top:35px;
+}
+
+#home-tr, #home-th {
+  padding: 20px;
+}
+
+#div2 {
+  padding-left: 40px;
+  padding-top: 80px;
+  grid-row-start: 2; 
+  grid-column-start: 1; 
+  grid-column-end: span 4; 
+  clear: both; 
+}
+#div3
+{
+  position: absolute;
+  left: 74%;
+  top:74%;
+}
+#det
+{
+ display:flex;
+  margin-left:5px;
+  margin-right: 90px;
+}
+
