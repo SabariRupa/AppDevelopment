@@ -1,5 +1,7 @@
 package com.example.demo.entity;
 
+import java.util.Date;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,11 +16,12 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Instructors {
+public class Attendence {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int instructorId;
-	private String instructorName;
-	private String qualification;
-	private String contact;
+	private int attendenceId;
+	private int studentId;
+	private int hour;
+	private Date date;
+	private String value;
 }

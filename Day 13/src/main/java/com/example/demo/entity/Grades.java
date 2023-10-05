@@ -12,14 +12,10 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Grades 
-{
-   @Id
-   private int student_id;
-   private int course_id;
-   private float mark;
-   private String grade;
-   
-   
-   
+public class Grades {
+	@Id
+	private int studentId;
+	private int courseId;
+	private float marks;
+	private String grade;
 }

@@ -16,24 +16,20 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Students 
-{
-  @Id
-  @GeneratedValue(strategy=GenerationType.AUTO)
-  private int student_id;
-  private String student_name;
-  private String department;
-  private String email;
-  private String password;
-  private Date dob;
-  private String gender;
-  private String quota;
-  private String address;
-  private long contact_number;
-  private int age;
-  private int yearofstudy;
-  private long feespaid;
-  private long totalfees;
-
-  
+public class Students {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int studentId;
+	private String studentName;
+	private String email;
+	private String gender;
+	private int year;
+	private String dept;
+	private long contactnum;
+	private String address;
+	private String quota;
+	private int age;
+	private long totalFees;
+	private long feesPaid;
+	private Date dob;
 }
