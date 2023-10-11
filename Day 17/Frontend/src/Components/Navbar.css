@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+ 
+
+}
+.mine
+{
+  margin-top:26px;
+ color:white;
+
+}
+.search-list
+{
+  padding-right:800px;
+
+}
+
+
+.profile
+{
+ border-radius:50px;
+  margin-top: 20px;
+  height:35px;
+  width:40px;
+}
+.log{
+position: absolute;
+top:4%;
+right:12%;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: small;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 5px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+color: red;
+}
+.navbar{
+  width:100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:55px;
+  margin-left: 35px;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.search
+{
+ border-radius: 5px;
+ width:210px;
+
+}
+.item{
+  color:black
+}
+body {
+  font-family: montserrat;
+}
+.login-dropdown{
+  color:white;
+}
+.navbar nav {
+  
+  background:#061e47;
+  height: 80px;
+  width: 100%;
+}
+.ser{
+color:white;
+margin-top:6px;
+margin-left:120px;
+}
+
+.logo{
+  display:flex;
+  border-radius:9px;
+  top:2%;
+  margin-left:12px;
+  width:60px;
+  height:50px;
+}
+.user
+{
+  text-transform: uppercase;
+  margin-left:15px;
+}
+.drop
+{
+  color:white;
+  position: absolute;
+  right:25px;
+  top:6px;
+}
+#myk
+  {
+    display:flex;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 10px;
+    left:80px;
+  }
+.noti
+{
+  margin-right:7px;
+  margin-top: 7px;
+  color:white;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+.navbar .logo{
+  left:0px;
+}
+.navbar .logo-div
+{
+  display:flex;
+  color:white;
+  margin-bottom:30px ;
+  margin-left: 80px;
+}
+.navbar nav{
+  display:flex;
+}
+.navbar ul {
+  display:flex;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  padding-top:2px ;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a:hover {
+  color: #6a6d70;
+  transition: 0.5s;
+}
+.user
+{
+  color: white;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+   
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+section {
+  background: url() no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+#droop
+{
+  margin-right:50px;
+}

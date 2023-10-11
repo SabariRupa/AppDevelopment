@@ -1,0 +1,115 @@
+
+.staff-panel {
+  max-width: 1200px;
+  margin-left:180px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.overview-item {
+  text-align: center;
+}
+
+.overview-item img {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  display: block;
+}
+
+.overview h5 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.overview h6 {
+  font-size: 18px;
+  color: #007BFF;
+}
+.student-details table{
+  width:100%;
+}
+.student-details{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+.bar-chart-section {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bar-chart h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.charts-container{
+  display:flex;
+}
+
+.bar-chart-container {
+  min-width:500px;
+  display: flex;
+  justify-content: center;
+}
+.pie-chart-section
+{
+  margin-left:30px;
+  min-width:500px; 
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.additional-content {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.additional-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.additional-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
