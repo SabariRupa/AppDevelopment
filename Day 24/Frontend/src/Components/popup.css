@@ -1,0 +1,47 @@
+.table-elements {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center; 
+  text-align: left; 
+}
+#meow
+{
+  margin-top:80px;
+  margin-left: 0px;
+}
+.course-select{
+height:30px;
+padding-right: 250px;
+;
+}
+.enroll-btn
+{
+  position: absolute;
+  top:38%;
+  height: 36px;
+  left:35%;
+  background-color: #1a75cf;
+  color: #fff;
+  border: none;
+  width:150px;
+  padding: 5px 10px;
+  cursor: pointer;
+ 
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn
+{
+ cursor:pointer;
+ width:85px;
+ height:40px;
+ background-color:rgb(161, 28, 28);
+ color:#fff;
+ position: absolute;
+ border: none;
+ left:43%;
+ top:82%;
+ right:17%;
+}
